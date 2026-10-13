@@ -66,4 +66,4 @@ Database name: `employee_management`
 - How the frontend, backend and database work together in a fullstack project
 
 ## Author
-Archana
+Archana R
