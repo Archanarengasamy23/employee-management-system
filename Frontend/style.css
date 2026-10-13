@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.menu {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.menu-btn {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.menu-btn:hover {
+  background-color: #1a252f;
+}
+/* ---- Better tables ---- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+th {
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px;
+  border: none;
+}
+
+td {
+  padding: 12px;
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+tr:hover td {
+  background-color: #f4f6f8;
+}
+
+/* ---- Better form boxes ---- */
+input {
+  width: 260px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2c3e50;
+}
+
+/* ---- Small buttons inside tables ---- */
+td button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #2c3e50;
+  color: white;
+  margin: 0 2px;
+}
+
+td button:last-child {
+  background-color: #c0392b;
+}
+
+td button:last-child:hover {
+  background-color: #a93226;
+}
+/* ---- Make buttons match ---- */
+button.menu-btn {
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px;
+}
+
+a.menu-btn {
+  display: inline-block;
+  padding: 12px 20px;
+}
+/* ---- Keep Edit and Delete side by side ---- */
+td:last-child {
+  white-space: nowrap;
+}
+
+td button {
+  margin: 4px 10px 4px 0;
+}

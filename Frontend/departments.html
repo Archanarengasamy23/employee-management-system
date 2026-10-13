@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manage Departments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="navbar">
+    <h1>Manage Departments</h1>
+  </div>
+
+  <div class="container" style="max-width: 700px;">
+
+    <form id="addDeptForm">
+      <input type="text" id="deptName" placeholder="Department Name" required>
+      <button type="submit" class="menu-btn">Add Department</button>
+    </form>
+
+    <br>
+
+    <table id="deptTable" border="1" cellpadding="10" style="width:100%; border-collapse: collapse;">
+      <thead>
+        <tr>
+          <th>Department Name</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Department rows will show here -->
+      </tbody>
+    </table>
+
+    <br>
+    <a href="index.html" class="menu-btn">Back to Home</a>
+  </div>
+ <script src="script.js"></script>
+</body>
+</html>
